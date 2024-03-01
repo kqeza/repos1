@@ -1,7 +1,7 @@
-function minus (){
-    let g = 8;
-    let p = 4;
-    let r;
-    r = g+p+p*2;
-    console.log(r);
+function plus (){
+    let h = 8;
+    let f = 4;
+    let d;
+    d = f+h;
+    console.log(d);
 }
