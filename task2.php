@@ -1,17 +1,17 @@
 <?php
 echo 'Введите первый цвет: ';
-$first_color = readline(prompt: "Введите первый цвет: ");
+$firstColor = readline(prompt: "Введите первый цвет: ");
 echo 'Введите второй цвет: ';
-$second_color = readline(prompt: "Введите второй цвет: ");
+$secondColor = readline(prompt: "Введите второй цвет: ");
 
-if ($first_color === 'красный' and $second_color === 'синий') {
+if ($firstColor === 'красный' && $secondColor === 'синий' || $secondColor === 'красный' && $firstColor === 'синий') {
     echo 'фиолетовый';
-} elseif ($first_color === 'красный' and $second_color === 'желтый') {
+} elseif ($firstColor === 'красный' && $secondColor === 'желтый' || $secondColor === 'красный' && $firstColor === 'желтый') {
     echo 'оранжевый';
-} elseif ($first_color === 'синий' and $second_color === 'желтый') {
+} elseif ($firstColor === 'синий' && $secondColor === 'желтый'||$secondColor === 'синий' && $firstColor === 'желтый') {
     echo 'зеленый';
-} elseif ($first_color === $second_color) {
-    echo $first_color;
+} elseif ($firstColor === $secondColor) {
+    echo $firstColor;
 } else {
     echo 'Неверный цвет';
 }

@@ -12,7 +12,7 @@ if ($sign === '+') {
     echo 'Ответ:', $a - $b;
 } elseif ($sign === '*') {
     echo 'Ответ:', $a * $b;
-} elseif ($sign === '/' and $b == 0) {
+} elseif ($sign === '/' && $b === '0') {
     echo 'На ноль делить нельзя';
 } elseif ($sign === '/') {
     echo 'Ответ:', $a / $b;
