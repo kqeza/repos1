@@ -1,6 +1,8 @@
 <?php
-$first_color = readline("Введите первый цвет: ");
-$second_color = readline("Введите второй цвет ");
+echo 'Введите первый цвет: ';
+$first_color = readline(prompt: "Введите первый цвет: ");
+echo 'Введите второй цвет: ';
+$second_color = readline(prompt: "Введите второй цвет: ");
 
 if ($first_color === 'красный' and $second_color === 'синий') {
     echo 'фиолетовый';

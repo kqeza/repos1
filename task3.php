@@ -14,6 +14,6 @@ function Intersection(int $a1, int $b1, int $a2, int $b2): string
     }
 }
 
-echo Intersection(2, 6, 4, 8) . PHP_EOL;
-echo Intersection(1, 2, 3, 4) . PHP_EOL;
+echo Intersection(4, 8, 2, 6) . PHP_EOL;
+echo Intersection(4, 3, 2, 1) . PHP_EOL;
 echo Intersection(1, 2, 2, 3) . PHP_EOL;
